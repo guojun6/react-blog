@@ -1,0 +1,50 @@
+.home-container {
+	> .my-card {
+		display: flex;
+		align-items: center;
+		padding: 26px;
+		margin: 20px 40px;
+		border-radius: 20px;
+		background: rgba(200,200,200,0.2);
+		> .my-avatar {
+			width: 120px;
+			height: 120px;
+			overflow: hidden;
+			> img {
+				width: 100%;
+			}
+		}
+		> .my-info {
+			flex: 1 1;
+			padding: 0 18px;
+			text-align: center;
+			> .name {
+				padding: 10px 0;
+				font-size: 32px; /*px*/
+				font-weight: bold;
+				color: #333;
+				> .from {
+					font-size: 24px; /*px*/
+					color: #666;
+					vertical-align: bottom;
+					font-weight: initial;
+				}
+			}
+			.contact-info {
+				font-size: 26px; /*px*/
+
+			}
+		}
+	}
+	> .YY {
+		text-align: center;
+		font-size: 40px; /*px*/
+		> .bear {
+			margin: auto;
+			width: 100px;
+			> img {
+				width: 100%;
+			}
+		}
+	}
+}

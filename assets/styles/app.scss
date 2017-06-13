@@ -1,0 +1,57 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #f0f0f0 !important;
+}
+input[type="file"] {
+	position: absolute;
+	left: 10000px; /*no*/
+	clip: rect(0px,0px,0px,0px);
+}
+
+.hide {
+	display: none;
+}
+.hide-hard {
+	display: none !important;
+}
+
+#app {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 0;
+	background: #fff;
+}
+.app {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+} 
+
+.fade-in-enter {
+  opacity: 0.01;
+}
+
+.fade-in-enter.fade-in-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-in-leave {
+  opacity: 1;
+}
+
+.fade-in-leave.fade-in-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

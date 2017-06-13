@@ -1,0 +1,36 @@
+.ctn {
+	> .box {
+		margin: 100px auto 0;
+		width: 460px;
+		box-shadow: 0 0 10px 4px #eee;
+		border-radius: 10px;
+		> .tags {
+			display: table;
+			border-collapse: collapse;
+			width: 100%;
+			font-size: 36px; /*px*/
+			text-align: center;
+			line-height: 66px; /*px*/
+			> .tag-item {
+				display: table-cell;
+				border-color: #e0e0e0;
+				border-bottom-width: 1px; /*no*/
+				border-style: solid;
+				&:first-child {
+					border-right-width: 1px; /*no*/
+				}
+				&:last-child {
+					border-left-width: 1px; /*no*/
+				}
+				> a {
+					display: block;
+					height: 100%;
+					&.active {
+						color: #32CD32;
+					}
+				}
+			}
+
+		}
+	}
+}

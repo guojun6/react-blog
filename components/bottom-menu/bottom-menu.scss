@@ -1,0 +1,27 @@
+.ctn {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	display: flex;
+	height: 70px;
+	box-shadow: 0 0 4px 0 #aaa; /*no*/
+	color: #828282;
+	font-size: 32px; /*px*/
+	background: #f0f0f0;
+	> .item {
+		flex: 1 1;
+		padding: 0 10px;
+		> a {
+			display: flex;
+			height: 100%;
+			align-items: center;
+			justify-content: center;
+			&.active {
+				color: #ff4b61;
+			}
+		}
+		
+	}
+}

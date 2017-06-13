@@ -1,0 +1,7 @@
+{
+  "javascript": {
+    "public": "/js/public.bundle.js"
+  },
+  "styles": {},
+  "assets": {}
+}
